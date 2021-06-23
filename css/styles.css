@@ -7489,6 +7489,10 @@ textarea.form-control-lg {
   border-radius: 50% !important;
 }
 
+.img-curriculo{
+  width: 100%;
+}
+
 .rounded-pill {
   border-radius: 50rem !important;
 }
@@ -11008,7 +11012,7 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  background: var(--bs-green); 
+  background: rgba(25, 135, 84, 0.7); 
   border-radius: 50% 50% 0% 0%;
   max-width: 26rem;
   margin-left: auto;
@@ -11040,7 +11044,6 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: var(--bs-green);
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
