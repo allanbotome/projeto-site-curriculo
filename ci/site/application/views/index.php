@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>Devs - Multi24h</title>
        
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="<?php echo base_url('assets/favicon.ico')?>" />
         
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" /> 
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="<?php echo base_url('assets/css/styles.css')?>" rel="stylesheet" />
         
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
 
         <!-- JQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-        <script src="js/login.js"></script>
+        <script src="<?php echo base_url('assets/js/login.js')?>"></script>
 
     </head>
     <body id="page-top">
@@ -199,7 +199,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Allan Ferreira Botomé</h2>
                                    <br>
-                                   <a href="assets/cv/ALLANcv.pdf" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
+                                   <a href="<?php echo base_url('assets/cv/ALLANcv.pdf')?>" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
                                     <p><strong>Clique na imagem para realizar o download do curriculo!</strong></p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -224,7 +224,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Magno Korzekwa</h2>
                                     <br>
-                                    <a href="assets/cv/MAGNOcv.pdf" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..."/> </a>
+                                    <a href="<?php echo base_url('assets/cv/MAGNOcv.pdf')?>" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..."/> </a>
                                     <p><strong>Clique na imagem para realizar o download do curriculo!</strong></p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -249,7 +249,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Thailan Chiele Erthal</h2>
                                     <br>
-                                    <a href="assets/cv/ALLANcv.pdf" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
+                                    <a href="<?php echo base_url('assets/cv/ALLANcv.pdf')?>" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
                                     <p><strong>Clique na imagem para realizar o download do curriculo!</strong></p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -274,7 +274,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Thomas Dahlin Dias Schuster</h2>
                                     <br>
-                                    <a href="assets/cv/ALLANcv.pdf" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
+                                    <a href="<?php echo base_url('assets/cv/ALLANcv.pdf')?>" download> <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..."/> </a>
                                     <p><strong>Clique na imagem para realizar o download do curriculo!</strong></p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
@@ -329,7 +329,7 @@
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="<?php echo base_url('assets/js/scripts.js')?>"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <!-- * *                               SB Forms JS                               * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
